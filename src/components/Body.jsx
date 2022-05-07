@@ -1,6 +1,7 @@
 import React from "react";
 import Vid from "../assets/video.mp4";
-import { authenticate } from './auth';
+import { authenticate,submit_claim } from './auth';
+import { getUserData } from './auth';
 
 
 const Body = () => {
@@ -73,10 +74,15 @@ const Body = () => {
         </div>
         <div>
         <button onClick={() => authenticate()}>Authenticate</button>
+        <button onClick={() => getUserData()}>Show data</button>
+        <button onClick={() => submit_claim()}>Submit Claim</button>
+
+
       </div>
       </div>
       
     </div>
+
   );
 };
 
