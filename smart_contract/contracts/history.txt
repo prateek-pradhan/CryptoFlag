@@ -1,0 +1,45 @@
+#V2
+(contract-call? .hello-world say-hi)
+(contract-call? .hello-world echo-number 42)\n
+(contract-call? .hello-world echo-number u42)\n
+exit
+.eixt
+clarinet check
+.exit
+.exit()
+quit
+.quit()
+.quit
+stop
+bye
+nont
+help
+?
+/help
+(contract-call? .counter get-counter)\n
+(contract-call? .hello-world say-hi)
+(contract-call? .get-counter)
+(contract-call? hello_world)
+(contract-call? .hello-world get-counter)
+(contract-call? .hello-world increment)
+(contract-call? .hello-world get-tx transaction_id_)
+(contract-call? .hello-world get-tx "transaction_id_")
+(contract-call? .hello-world get-tx "transaction_id1")
+(contract-call? .hello-world get-claim "transaction_id1")
+(contract-call? .hello-world get-claim "transaction_id_")
+(contract-call? .hello-world get-claim "transaction_id1")
+(contract-call? .hello-world submit-claim "transaction_id3" blockchain_name "ethereum_blockc" amount u23 wallet-address "wallet_address_")
+(contract-call? .hello-world submit-claim "transaction_id3" "ethereum_blockc" u23 "wallet_address_")
+(contract-call? .hello-world get-claim "transaction_id23")
+(contract-call? .hello-world get-claim "transaction_id1")
+(contract-call? .hello-world get-claim "transaction_i")
+(contract-call? .hello-world submit-claim "transaction_id5" "ethereum_blockc" u23 "wallet_addres1_")
+(contract-call? .hello-world get-claim "transaction_id5")
+(contract-call? .hello-world submit-claim "transaction_id5" "ethereum_blockc" u23 "wallet_addres1_")
+(contract-call? .hello-world get-claim "transaction_id5")
+(contract-call? .hello-world submit-claim "transaction_id3" blockchain_name "ethereum_blockc" amount u23 wallet-address "wallet_address_")
+(contract-call? .hello-world get-claim "transaction_id5")
+(contract-call? .hello-world get-claim "transaction_id")
+(contract-call? .hello-world get-claim "transaction_id1")
+(contract-call? .hello-world submit-claim "transaction_id5" "ethereum_blockc" u23 "wallet_addres1_")
+(contract-call? .hello-world get-claim "transaction_id5")
