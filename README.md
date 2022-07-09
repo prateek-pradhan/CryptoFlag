@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# CryptoFlag
+## Decentralized crowdsourced fraud transaction reporting and flagging platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+Our inspiration comes from personal anecdotes where we have been scammed by people and lost cryptocurrency. Due to lack of regulation, there has been nothing we could do about it. That's why we came up with the idea of Cryptoflag which helps users report and flag scammers. Also, will help get people back their lost assets while reducing scams. 
 
-## Available Scripts
+In 2021, $14B worth of crypto was stolen by scammers or hackers, that is $38M daily. The high tech nature of crypto attracts new opportunities for sophisticated illicit activity which is often difficult to prevent.  In the traditional financial world, many established tools exist to flag transactions or accounts. Such flagging tools are largely underutilized in the crypto world. 
 
-In the project directory, you can run:
+## What it does
+Cryptoflag is the solution to identify and flag fraudulent transactions using crowdsourced information. Users need to enter 3 items: Transaction address, wallet address and blockchain to get instant feedback on the flag status of a transaction. Entered details enter the expanding crypto flag database which can be integrated onto platforms such as Binance, OpenSea and Meatmask to help them blacklist and control scammers on their platforms. 
 
-### `npm start`
+## How we built it
+Cryptoflag is built on Stacks and will use Chainlink to broadcast scam claims data. Hiro wallet is used to authenticate users and data collected is stored on stacks of smart contracts. Users can submit details of their scam claim directly to the Cryptoflag website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Challenges we ran into
+How to link frontend to smart contract
+Build incentive mechanism 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Accomplishments that we're proud of
+Understanding Hiro/Stacks in a short period 
 
-### `npm test`
+## What we learned
+- How to build and connect to smart contracts
+- Link frontend to Stacks
+- Market needs in fraud flagging
+- Lack of regulation in the crypto space
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Cryptoflag
+- Scam verification through bitcoin miners or validators.
+- Integration with Cryptocurrency and NFT based platforms such as Binance, OpenSea and Metamask to help them reduce scammers and fraudulent activity on their platform. 
+- Make chainlink oracle to broadcast scam claims data to other blockchains.
+- Expand the range of wallet integrations like Metamask and Coinbase wallet.
