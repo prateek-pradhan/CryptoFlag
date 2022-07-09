@@ -12,13 +12,6 @@ Cryptoflag is the solution to identify and flag fraudulent transactions using cr
 ## How we built it
 Cryptoflag is built on Stacks and will use Chainlink to broadcast scam claims data. Hiro wallet is used to authenticate users and data collected is stored on stacks of smart contracts. Users can submit details of their scam claim directly to the Cryptoflag website.
 
-## Challenges we ran into
-How to link frontend to smart contract
-Build incentive mechanism 
-
-## Accomplishments that we're proud of
-Understanding Hiro/Stacks in a short period 
-
 ## What we learned
 - How to build and connect to smart contracts
 - Link frontend to Stacks
